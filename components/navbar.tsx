@@ -17,7 +17,7 @@ export default function Navbar() {
           <li>Community</li>
           <li>Subscribe</li>
           <li>
-            <button className="border border-black rounded-full p-2 text-white bg-black px-7 mr-4 py-3 ">
+            <button className="border border-black rounded-full p-2 text-white bg-black px-7 mr-4 py-2 ">
               Play Now!
             </button>
           </li>
