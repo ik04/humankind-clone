@@ -2,7 +2,7 @@ import React from "react";
 import test from "public/Humankind_Assets/images/62c34c43823219cb54a56164_icon.svg";
 import Image from "next/image";
 
-export default function Navbar() {
+export const Navbar = () => {
   return (
     <div className="fixed w-screen">
       <div className="flex justify-between bg-white h-[60px] mr-auto ml-auto pr-4 pl-4">
@@ -25,4 +25,4 @@ export default function Navbar() {
       </div>
     </div>
   );
-}
+};
