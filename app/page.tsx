@@ -6,6 +6,16 @@ import card1 from "public/Humankind_Assets/images/card1.png";
 import card2 from "public/Humankind_Assets/images/63e09ea82ae9b06d12ea9b91_028-band-playing-p-2000.png";
 import card3 from "public/Humankind_Assets/images/63765b76de5f1356947d9d23_Lunchboxes.gif";
 
+import profile1 from "public/Humankind_Assets/images/62d0eba9fd0791f1321f3463_hk-8.png";
+import profile2 from "public/Humankind_Assets/images/62d0eba989927a42d3ecd6ec_hk-6.png";
+import profile3 from "public/Humankind_Assets/images/62d0eba9f0c56e0e31430767_hk-7.png";
+import profile4 from "public/Humankind_Assets/images/62d0eba96e8bedb0f11027d1_hk-4.png";
+import profile5 from "public/Humankind_Assets/images/62d0eba95f70f42c84d7e993_hk-5.png";
+import profile6 from "public/Humankind_Assets/images/62d0ecf6c5c447164d6d3ecf_hk-9.png";
+import profile7 from "public/Humankind_Assets/images/62d0eba94995fa159bccd55a_hk-1.png";
+import profile8 from "public/Humankind_Assets/images/62d0eba9d6c0094dc3a98be3_hk-2.png";
+import profile9 from "public/Humankind_Assets/images/62d0eba9fc73b73c7088094d_hk-3.png";
+
 export default function Page() {
   return (
     <div className="h-screen">
@@ -109,6 +119,82 @@ export default function Page() {
               </button>
               <button className="border-black border-[3px] rounded-full font-bold text-black bg-white px-7 py-5">
                 Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="collectibles-section bg-collectibles-pattern w-screen h-[750px] mt-14 flex justify-center items-center">
+        <div className="collectibles-card bg-black w-[1100px] h-3/5 rounded-3xl">
+          <div className="contents">
+            <div className="profiles -translate-y-14 h-2/5 flex-col -space-y-6">
+              <div className="picture-row-1 flex justify-center items-center -space-x-4">
+                {/* could be done by looping for next time */}
+                <Image
+                  src={profile1}
+                  className="w-[130px] rounded-full border-black border-[3px]"
+                  alt="placeholder"
+                />
+                <Image
+                  src={profile2}
+                  className="w-[130px] rounded-full border-black border-[3px]"
+                  alt="placeholder"
+                />
+                <Image
+                  src={profile3}
+                  className="w-[130px] rounded-full border-black border-[3px]"
+                  alt="placeholder"
+                />
+                <Image
+                  src={profile4}
+                  className="w-[130px] rounded-full border-black border-[3px]"
+                  alt="placeholder"
+                />
+                <Image
+                  src={profile5}
+                  className="w-[130px] rounded-full border-black border-[3px]"
+                  alt="placeholder"
+                />
+              </div>
+              <div className="picture-row-2 flex justify-center items-center -space-x-4">
+                <Image
+                  src={profile6}
+                  className="w-[130px] rounded-full border-black border-[3px]"
+                  alt="placeholder"
+                />
+                <Image
+                  src={profile7}
+                  className="w-[130px] rounded-full border-black border-[3px]"
+                  alt="placeholder"
+                />
+                <Image
+                  src={profile8}
+                  className="w-[130px] rounded-full border-black border-[3px]"
+                  alt="placeholder"
+                />
+                <Image
+                  src={profile9}
+                  className="w-[130px] rounded-full border-black border-[3px]"
+                  alt="placeholder"
+                />
+              </div>
+            </div>
+            <h2 className="text-white text-center text-4xl mt-5 font-bold">
+              Humankind Collectibles
+            </h2>
+            <div className="flex justify-center items-center mt-4">
+              <p className="text-white text-center text-ellipsis w-3/5 font-serif text-xl">
+                Back in 2022, we launched a set of diverse and unique art
+                collectibles featuring the Humankind species, the most prevalent
+                in The Land of Kinds.
+              </p>
+            </div>
+            <div className="buttons mt-3 flex justify-center items-center">
+              <button className="border border-white rounded-full text-white font-bold bg-black px-7 mr-2 py-5">
+                Learn more
+              </button>
+              <button className="border-black border-[3px] rounded-full font-bold text-black bg-white px-7 py-5">
+                Get one from Opensea
               </button>
             </div>
           </div>
